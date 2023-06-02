@@ -10,6 +10,6 @@ struct MyType
 end
 
 include("iseven.jl")
-include("bisect.jl")
+include("SolveEq.jl")
 
 end # module MyPackage

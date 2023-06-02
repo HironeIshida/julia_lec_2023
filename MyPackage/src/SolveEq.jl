@@ -17,3 +17,19 @@ function bisect(f, a::Float64, b::Float64, tol::Float64)
 
     return 0.5*(a + b)
 end
+
+
+function diff_func(f, x)
+    Δx = 1e-10
+    f_prime = (f(x+Δx)-f(x))/Δx
+    return f_prime
+end
+
+
+function newton(f, a::Float64, tol::Float64)
+    xb = a
+    xf = xb - f(xb)/diff_func(f, xb)
+    while abs(xb - xa) > 
+    
+    return nothing
+end
