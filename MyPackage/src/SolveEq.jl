@@ -28,8 +28,8 @@ end
 
 function newton(f, a::Float64, tol::Float64)
     xb = a
-    xf = xb - f(xb)/diff_func(f, xb)
-    while abs(xb - xa) > 
-    
+    xa = xb - f(xb)/diff_func(f, xb)
+    while abs(xb - xa)/abs(xa) > tol
+    end
     return nothing
 end

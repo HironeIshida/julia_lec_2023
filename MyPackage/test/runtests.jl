@@ -8,5 +8,4 @@ include("SolveEq.jl")
 #using MyPackage
 #include("MyPackage/test/runtests.jl")
 
-
 nothing
