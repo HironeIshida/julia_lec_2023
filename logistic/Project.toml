@@ -1,0 +1,7 @@
+name = "logistic"
+uuid = "a1020abb-104b-43ee-947c-fe81dd168084"
+authors = ["ishida_hirone <sakai.39186@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
